@@ -1,0 +1,190 @@
+PODS:
+  - Alamofire (4.8.1)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - DateToolsSwift (4.0.0)
+  - Differentiator (3.1.0)
+  - Hero (1.4.0)
+  - IQKeyboardManagerSwift (6.2.0)
+  - KeychainAccess (3.1.2)
+  - Kingfisher (4.10.1)
+  - Localize-Swift (2.0.0)
+  - Moya (12.0.1):
+    - Moya/Core (= 12.0.1)
+  - Moya-ObjectMapper/Core (2.7):
+    - Moya (~> 12)
+    - ObjectMapper (~> 3.3)
+  - Moya-ObjectMapper/RxSwift (2.7):
+    - Moya-ObjectMapper/Core
+    - RxSwift (~> 4.1)
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
+  - Moya/RxSwift (12.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - "NSObject+Rx (4.4.1)":
+    - RxSwift (~> 4.3)
+  - NVActivityIndicatorView (4.6.0):
+    - NVActivityIndicatorView/Presenter (= 4.6.0)
+  - NVActivityIndicatorView/Presenter (4.6.0)
+  - ObjectMapper (3.4.2)
+  - PMAlertController (3.5.0)
+  - ReachabilitySwift (4.3.0)
+  - Result (4.1.0)
+  - RxAtomic (4.4.0)
+  - RxCocoa (4.4.0):
+    - RxSwift (~> 4.0)
+  - RxDataSources (3.1.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxGesture (2.1.0):
+    - RxCocoa (~> 4.4.0)
+    - RxSwift (~> 4.4.0)
+  - RxOptional (3.6.2):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.0):
+    - RxAtomic (~> 4.4)
+  - RxSwiftExt (3.4.0):
+    - RxSwiftExt/Core (= 3.4.0)
+    - RxSwiftExt/RxCocoa (= 3.4.0)
+  - RxSwiftExt/Core (3.4.0):
+    - RxSwift (~> 4.0)
+  - RxSwiftExt/RxCocoa (3.4.0):
+    - RxCocoa (~> 4.0)
+    - RxSwiftExt/Core
+  - RxTheme (2.2.2):
+    - RxCocoa (~> 4.3)
+    - RxSwift (~> 4.3)
+  - RxViewController (0.4.0):
+    - RxCocoa (>= 4.0.0)
+    - RxSwift (>= 4.0.0)
+  - SnapKit (4.2.0)
+  - SwiftDate (5.1.0)
+  - SwifterSwift (4.6.0):
+    - SwifterSwift/AppKit (= 4.6.0)
+    - SwifterSwift/CoreGraphics (= 4.6.0)
+    - SwifterSwift/CoreLocation (= 4.6.0)
+    - SwifterSwift/Foundation (= 4.6.0)
+    - SwifterSwift/MapKit (= 4.6.0)
+    - SwifterSwift/SpriteKit (= 4.6.0)
+    - SwifterSwift/SwiftStdlib (= 4.6.0)
+    - SwifterSwift/UIKit (= 4.6.0)
+  - SwifterSwift/AppKit (4.6.0)
+  - SwifterSwift/CoreGraphics (4.6.0)
+  - SwifterSwift/CoreLocation (4.6.0)
+  - SwifterSwift/Foundation (4.6.0)
+  - SwifterSwift/MapKit (4.6.0)
+  - SwifterSwift/SpriteKit (4.6.0)
+  - SwifterSwift/SwiftStdlib (4.6.0)
+  - SwifterSwift/UIKit (4.6.0)
+  - WhatsNewKit (1.1.5)
+
+DEPENDENCIES:
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - DateToolsSwift (~> 4.0)
+  - Hero (~> 1.4.0)
+  - IQKeyboardManagerSwift (~> 6.0)
+  - KeychainAccess (~> 3.0)
+  - Kingfisher (~> 4.0)
+  - Localize-Swift (~> 2.0)
+  - Moya-ObjectMapper/RxSwift (from `https://github.com/hankbao/Moya-ObjectMapper.git`)
+  - Moya/RxSwift (~> 12.0)
+  - "NSObject+Rx (~> 4.0)"
+  - NVActivityIndicatorView (~> 4.0)
+  - PMAlertController (~> 3.5.0)
+  - ReachabilitySwift (~> 4.0)
+  - RxDataSources (~> 3.0)
+  - RxGesture (~> 2.0)
+  - RxOptional (~> 3.0)
+  - RxSwiftExt (~> 3.0)
+  - RxTheme (~> 2.0)
+  - RxViewController (~> 0.3)
+  - SnapKit (~> 4.0)
+  - SwiftDate (~> 5.0)
+  - SwifterSwift (~> 4.6.0)
+  - WhatsNewKit (~> 1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - DateToolsSwift
+    - Differentiator
+    - Hero
+    - IQKeyboardManagerSwift
+    - KeychainAccess
+    - Kingfisher
+    - Localize-Swift
+    - Moya
+    - "NSObject+Rx"
+    - NVActivityIndicatorView
+    - ObjectMapper
+    - PMAlertController
+    - ReachabilitySwift
+    - Result
+    - RxAtomic
+    - RxCocoa
+    - RxDataSources
+    - RxGesture
+    - RxOptional
+    - RxSwift
+    - RxSwiftExt
+    - RxTheme
+    - RxViewController
+    - SnapKit
+    - SwiftDate
+    - SwifterSwift
+    - WhatsNewKit
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+  Moya-ObjectMapper:
+    :git: https://github.com/hankbao/Moya-ObjectMapper.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: 6dd284bde21ea2e7f9fd89bc36f40df16e16369d
+    :git: https://github.com/ViccAlexander/Chameleon.git
+  Moya-ObjectMapper:
+    :commit: d3f711972efd16035cc3ce10ba4078ef24a1c622
+    :git: https://github.com/hankbao/Moya-ObjectMapper.git
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  DateToolsSwift: 875d97ff9e3a5d54abdd67a269b3f51c757b71ab
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
+  Hero: bac92350d7201a1a940003e0767c7b52ce7c99a1
+  IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  KeychainAccess: b3816fddcf28aa29d94b10ec305cd52be14c472b
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  Localize-Swift: c798ec9286494866f7068f85f7c71283ac5bdab4
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  Moya-ObjectMapper: 4af618191346bc395625510eff5684ed4a8246c6
+  "NSObject+Rx": 9884a92f19b610795c431e10b4e601913b59c9e9
+  NVActivityIndicatorView: 9c3704896798b042315e2a154dc27e48384756f0
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  PMAlertController: 06dab8160066fc4ce991c880e3722cd403e2926a
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
+  RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
+  RxGesture: 7f6dfb45dbde06e618c24442d38493e3144f2c95
+  RxOptional: 80426a0ddbd092573e4c482d8cc13302078c4d5e
+  RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
+  RxSwiftExt: 01f8ecbeeb355698e9c75365ebe908b00dacf45d
+  RxTheme: b58ac61b7062d5a6215d53653a18c2f18f8015a0
+  RxViewController: 359bbc2fda373a78605b2735afb0f9f4f3f6c3e4
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftDate: 6329e58969a2de31cea7f1ee1143b247693196e7
+  SwifterSwift: 812ffec6f301922f5430e75be3f2939ea3a80024
+  WhatsNewKit: 4b1adc0955248667324120e98cd7640e01483b0a
+
+PODFILE CHECKSUM: ad219fc3df5fb6d9df3ba5a9250a02d591e3d2d4
+
+COCOAPODS: 1.5.3
