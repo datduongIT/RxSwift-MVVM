@@ -6,4 +6,9 @@
 //  Copyright © 2019 Dat Duong. All rights reserved.
 //
 
-import Foundation
+import RxSwift
+import RxCocoa
+
+final class Networking<T>: Single<T> {
+    
+}
