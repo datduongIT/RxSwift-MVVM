@@ -21,7 +21,8 @@
 		E0744137222121E800558D81 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0744136222121E800558D81 /* HomeVM.swift */; };
 		E0744139222121F900558D81 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0744138222121F900558D81 /* HomeVC.swift */; };
 		E074413B2221221500558D81 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = E074413A2221221500558D81 /* Home.swift */; };
-		E074413E2221229800558D81 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = E074413D2221229800558D81 /* Label.swift */; };
+		E0DE81B222A39E7C00FB7D72 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE81B122A39E7C00FB7D72 /* CustomLabel.swift */; };
+		E0DE81B422A3B10900FB7D72 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DE81B322A3B10900FB7D72 /* UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +44,8 @@
 		E0744136222121E800558D81 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
 		E0744138222121F900558D81 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		E074413A2221221500558D81 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		E074413D2221229800558D81 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		E0DE81B122A39E7C00FB7D72 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		E0DE81B322A3B10900FB7D72 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		E0744128222120D400558D81 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				E0DE81B522A3B12E00FB7D72 /* UIKit */,
 				E0744129222120DF00558D81 /* RxSwift */,
 			);
 			path = Extensions;
@@ -195,8 +198,8 @@
 		E074413C2221226600558D81 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				E074413D2221229800558D81 /* Label.swift */,
 				E0257BE42247F1580009E58E /* ViewModelType.swift */,
+				E0DE81B122A39E7C00FB7D72 /* CustomLabel.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -225,6 +228,14 @@
 				E074411622211C8E00558D81 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		E0DE81B522A3B12E00FB7D72 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				E0DE81B322A3B10900FB7D72 /* UIViewController.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 		FFAFABEB28AE352543157701 /* Frameworks */ = {
@@ -415,6 +426,8 @@
 			files = (
 				E0257BE52247F1580009E58E /* ViewModelType.swift in Sources */,
 				E07441272221208800558D81 /* Configs.swift in Sources */,
+				E0DE81B422A3B10900FB7D72 /* UIViewController.swift in Sources */,
+				E0DE81B222A39E7C00FB7D72 /* CustomLabel.swift in Sources */,
 				E074412E2221212A00558D81 /* AuthManager.swift in Sources */,
 				E074413B2221221500558D81 /* Home.swift in Sources */,
 				E074412122211CCD00558D81 /* Application.swift in Sources */,
@@ -422,7 +435,6 @@
 				E0744137222121E800558D81 /* HomeVM.swift in Sources */,
 				E074412B222120F800558D81 /* Kingfisher+Rx.swift in Sources */,
 				E074410E22211C8C00558D81 /* AppDelegate.swift in Sources */,
-				E074413E2221229800558D81 /* Label.swift in Sources */,
 				E07441242221205A00558D81 /* Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
